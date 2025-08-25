@@ -1,5 +1,5 @@
 Here about two types of Sorting Algorithm used: 
-1. Insertion Sort::
+## Insertion Sort::
 
 (a) A simple comparison-based sorting algorithm.
 
@@ -7,7 +7,7 @@ Here about two types of Sorting Algorithm used:
 
 ---> How it works: Takes one element at a time and inserts it into its correct position in the sorted part.
 
-## Time Complexity:
+---> Time Complexity:
 
 1) Best: O(n)
 
@@ -15,7 +15,7 @@ Here about two types of Sorting Algorithm used:
 
 3) Worst: O(n²)
 
-2. Merge Sort::
+## Merge Sort::
 
 (a) A divide-and-conquer sorting algorithm.
 
@@ -23,6 +23,6 @@ Here about two types of Sorting Algorithm used:
 
 ---> How it works: Divides the array into two halves, recursively sorts them, and then merges them.
 
-## Time Complexity:
+--> Time Complexity:
 
 Best / Average / Worst: O(n log n)
