@@ -7,7 +7,7 @@ Here about two types of Sorting Algorithm used:
 
 ---> How it works: Takes one element at a time and inserts it into its correct position in the sorted part.
 
----> Time Complexity:
+--> Time Complexity:
 
 1) Best: O(n)
 
