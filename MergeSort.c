@@ -59,13 +59,11 @@ void mergeSort(int arr[],int left,int right){
   	int arr[]={8,9,7,5,12,4,13,2};
   	int n=sizeof(arr)/sizeof(arr[0]);
   	
-  	printf("unsorted array: ");
-  	PrintArray(arr,n);
-  	
   	mergeSort(arr,0,n-1);
   	printf("Sorted Array: ");
   	PrintArray(arr,n);
   	
   	
   	
+
   }
