@@ -24,14 +24,12 @@ void printArray(int arr[], int n) {
 int main() {
     int arr[] = {8, 9, 7, 5, 12, 4, 13, 2, 4};
     int n = sizeof(arr) / sizeof(arr[0]);
-
-    printf("Unsorted array: ");
-    printArray(arr, n);
-
+    
     insertionSort(arr, n);
 
     printf("Sorted array: ");
     printArray(arr, n);
 
     return 0;
+
 }
